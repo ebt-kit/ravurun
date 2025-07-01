@@ -12,7 +12,7 @@
 
 # ダウンロード方法
 
-1. `rubirun.zip.001`と`rubirun.zip.002`をダウンロードする。
+1. `rabirun.zip.001`と`rabirun.zip.002`をダウンロードする。
 
 2. **7-Zipを使用してファイルを結合および解凍する方法（Windowsユーザー向け）**
 
@@ -20,13 +20,13 @@
       - [7-Zipの公式サイト](https://www.7-zip.org/)から7-Zipをダウンロードし、インストールします。
 
    2. **ファイルの結合**:
-      - `rubirun.zip.001`と`rubirun.zip.002`ファイルが同じフォルダにあることを確認します。
-      - `rubirun.zip.001`ファイルを右クリックし、「7-Zip」→「アーカイブを開く」を選択します。
-      - 7-Zipが開き、`rubirun.zip.001`ファイルの内容が表示されます。
+      - `rabirun.zip.001`と`rabirun.zip.002`ファイルが同じフォルダにあることを確認します。
+      - `rabirun.zip.001`ファイルを右クリックし、「7-Zip」→「アーカイブを開く」を選択します。
+      - 7-Zipが開き、`rabirun.zip.001`ファイルの内容が表示されます。
 
    3. **解凍（抽出）**:
       - 「Extract」ボタンをクリックし、解凍先のフォルダを選択して「OK」ボタンをクリックします。
-      - これにより、`rubirun.zip.001`と`rubirun.zip.002`が結合され、元のファイルが解凍されます。
+      - これにより、`rabirun.zip.001`と`rabirun.zip.002`が結合され、元のファイルが解凍されます。
 
 3. **手動で結合する方法**
 
@@ -35,18 +35,18 @@
    1. コマンドプロンプトを開き、分割ファイルが保存されているディレクトリに移動します。
    2. 以下のコマンドを実行します。
       ```sh
-      copy /b rubirun.zip.001 + rubirun.zip.002 rubirun.zip
+      copy /b rabirun.zip.001 + rabirun.zip.002 rabirun.zip
       ```
-   3. 完成した`rubirun.zip`を解凍します。
+   3. 完成した`rabirun.zip`を解凍します。
 
    **Mac/Linux**
 
    1. ターミナルを開き、分割ファイルが保存されているディレクトリに移動します。
    2. 以下のコマンドを実行します。
       ```sh
-      cat rubirun.zip.001 rubirun.zip.002 > rubirun.zip
+      cat rabirun.zip.001 rabirun.zip.002 > rabirun.zip
       ```
-   3. 完成した`rubirun.zip`を解凍します。
+   3. 完成した`rabirun.zip`を解凍します。
 
 # 使用方法
 
